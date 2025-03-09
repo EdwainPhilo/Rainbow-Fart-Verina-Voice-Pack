@@ -1,0 +1,127 @@
+{
+    "name": "Nikke-Verina-Python",
+    "version": "1.0",
+    "languages": ["python"],
+    "locale": "zh",
+    "contributes": [
+        {
+            "keywords": [
+                "def ",
+                "class "
+            ],
+            "voices": ["function_define.wav", "function_define2.wav"],
+            "texts": ["漂泊者...需要我帮你检查一下这个新功能吗？",
+                    "...这段代码就像一株新生的幼苗呢...让我帮你照看它的成长吧..."
+                    ]
+        },
+        {
+            "keywords": [
+                "if ",
+                "elif ",
+                "else:"
+            ],
+            "voices": ["condition.wav", "condition2.wav"],
+            "texts": ["这些条件判断...我可以帮你仔细确认一下，以免遗漏任何情况",
+        "嘘...这里的条件分支，就像植物选择生长的方向一样...要小心判断呢..."]
+        },
+        {
+            "keywords": [
+                "for ",
+                "while "
+            ],
+            "voices": ["loop.wav", "loop2.wav"],
+            "texts": ["循环写得太复杂可能会有危险...让我来帮你看看吧",
+        "漂泊者...这里的循环...需要我帮你仔细检查一下吗..."]
+        },
+        {
+            "keywords": [
+                "try:",
+                "except ",
+                "finally:"
+            ],
+            "voices": ["exception.wav", "exception2.wav"],
+            "texts": ["异常处理很重要呢...就像识别有毒的蘑菇一样，需要格外小心",
+        "就像我照顾那些脆弱的花朵一样...让我来帮你处理这些意外情况吧..."]
+        },
+        {
+            "keywords": [
+                "print(",
+                "return "
+            ],
+            "voices": ["output.wav"],
+            "texts": ["输出的内容...我已经帮你检查过了，一切都很安全"]
+        },
+        {
+            "keywords": [
+                "import ",
+                "from "
+            ],
+            "voices": ["import.wav", "import2.wav"],
+            "texts": ["这些新模块...我稍微研究过，应该不会对系统造成伤害",
+        "新引入的模块...我来帮你确认一下安全性好吗..."]
+        },
+        {
+            "keywords": [
+                "# TODO",
+                "# FIXME"
+            ],
+            "voices": ["todo.wav", "todo2.wav"],
+            "texts": ["我会记住这个待办事项的...不用担心会忘记",
+                    "啊...这里标记了待办事项呢...我会帮你记着的..."]
+        },
+        {
+            "keywords": [
+                "raise ",
+                "assert "
+            ],
+            "voices": ["error.wav", "error2sad.wav", "error2neutral.wav"],
+            "texts": ["发现问题了呢...不要着急，让我用治愈之力帮你解决它",
+                    "出现异常了呢...不要着急...我在这里陪着你...",
+                    "出现异常了呢...不要着急...我在这里陪着你..."]
+        },
+        {
+            "keywords": [
+                "self.",
+                "__init__"
+            ],
+            "voices": ["class_related.wav"],
+            "texts": ["这个类的设计...我可以帮你完善它"]
+        },
+        {
+            "keywords": [
+                "break;",
+                "break)",
+                "break ",
+                "continue;",
+                "continue)",
+                "continue ",
+                "break",
+                "continue"
+            ],
+            "voices": ["loop_control.wav"],
+            "texts": ["程序的流程要改变了...我会确保它的安全性的"]
+        },
+        {
+            "keywords": [
+                "$time_midnight"
+            ],
+            "voices": ["midnight.wav", "midnight2.wav"],
+            "texts": ["漂泊者...已经很晚了，休息对身体很重要呢...",
+        "已经这么晚了呢...漂泊者...要不要先休息一下..."]
+        },
+        {
+            "keywords": [
+                "$time_morning"
+            ],
+            "voices": ["morning.wav"],
+            "texts": ["早安...今天也请让我继续守护你的代码"]
+        },
+        {
+            "keywords": [
+                "$time_before_noon"
+            ],
+            "voices": ["before_noon.wav"],
+            "texts": ["到午餐时间了呢...记得要好好吃饭啊"]
+        }
+    ]
+}
